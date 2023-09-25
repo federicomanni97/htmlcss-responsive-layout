@@ -17,7 +17,7 @@
 
 .container{
     max-width: 1200px;
-    padding: 10px;
+    padding: 5px;
 }
 
 header{
@@ -37,7 +37,7 @@ footer{
 /* utilityes */
 .col{
     padding: 7px;
-    margin: 20px;
+    margin: 5px 20px;
 }
 
 .small-rounder{
@@ -97,6 +97,12 @@ footer{
 #intro img{
     position: relative;
     top: 25px;
+}
+
+
+.icon{
+    font-size: 100px;
+    color: var(--color-secondary-color);
 }
 
 /*  Background colors */
