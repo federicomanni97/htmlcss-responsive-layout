@@ -164,3 +164,11 @@ footer{
 img{
     width: 100%;
 }
+
+.rounded-img {
+} 
+
+.rounded-img img {
+
+    border-radius: 50%;
+}
