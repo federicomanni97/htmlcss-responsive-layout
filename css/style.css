@@ -15,6 +15,11 @@
 	--color-text: #424242;
 }
 
+.container{
+    max-width: 1200px;
+    padding: 10px;
+}
+
 header{
     background-color: var(--color-secondary-color);
     color: var(--color-light-color);    
@@ -29,6 +34,71 @@ footer{
     border: 1px solid black;
 }
 
+/* utilityes */
+.col{
+    padding: 7px;
+    margin: 20px;
+}
+
+.small-rounder{
+    border-radius: 10px;
+}
+
+.big-rounded{
+    border-radius: 20px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.px-10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bttn{
+    padding: 6px 30px;
+    text-decoration: none;
+    color: var(--color-light-color);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.line-height{
+    line-height: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#intro h3{
+    font-size: 32px;
+    color: var(--color-secondary-color);
+}
+
+#intro img{
+    position: relative;
+    top: 25px;
+}
+
 /*  Background colors */
 
 .bg-primary{
@@ -41,4 +111,8 @@ footer{
 
 .bg-card{
     background-color: var(--color-bg-card);
+}
+
+img{
+    width: 100%;
 }
