@@ -16,7 +16,6 @@
 }
 
 .container{
-    max-width: 1200px;
     padding: 5px;
 }
 
@@ -34,10 +33,17 @@ footer{
     border: 1px solid black;
 }
 
+#logo img{
+    width: 60px;
+}
+
 /* utilityes */
 .col{
-    padding: 7px;
-    margin: 5px 20px;
+    margin: 5px 5px;
+}
+
+.card{
+    height: 100%;
 }
 
 .small-rounder{
@@ -80,6 +86,11 @@ footer{
     margin-top: 40px;
 }
 
+.mtb-20px{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .mb-30{
     margin-bottom: 30px;
 }
@@ -98,7 +109,7 @@ footer{
     text-decoration: none;
     color: var(--color-light-color);
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
 }
 
@@ -111,7 +122,7 @@ footer{
 }
 
 #intro h3{
-    font-size: 32px;
+    font-size: 20px;
     color: var(--color-secondary-color);
 }
 
@@ -126,7 +137,7 @@ footer{
 
 
 .icon{
-    font-size: 100px;
+    font-size: 65px;
     color: var(--color-secondary-color);
 }
 
@@ -161,14 +172,113 @@ footer{
     color: var(--color-light-color);
 }
 
+.primary-color{
+    color: var(--color-primary-color);
+}
+
 img{
     width: 100%;
 }
 
+#testimonials h3{
+    font-size: 15px;
+}
+
+#testimonials h2{
+    font-size: 30px;
+    color: var(--color-primary-color);
+}
+
+#testimonials h4{
+    font-size: 20px;
+}
+
 .rounded-img {
+
 } 
 
 .rounded-img img {
-
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+#strategic-benefits h2{
+    font-size: 30px;
+}
+
+#strategic-benefits h3{
+    font-size: 40px;
+}
+
+#strategic-benefits h4{
+    font-size: 20px;
+}
+
+.bttn2 {
+    padding: 6px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#about-us h2{
+    font-size: 35px;
+}
+
+#about-us img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#about-us h3{
+    font-size: 27px;
+}
+
+.bttn3 {
+    padding: 15px 80px;
+    text-decoration: none;
+    border-radius: 26px;
+    font-size: 17px;
+}
+
+#get-started h3{
+    font-size: 25px;
+}
+
+#get-started h2{
+    font-size: 50px;
+    color: var(--color-contrast-color);
+}
+
+.border-bot{
+    border-bottom: 1px solid var(--color-primary-color);
+}
+
+/* media query*/
+
+@media screen and (min-width:576px){
+
+    .d-flex{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .align-stretch{
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    #intro .col{
+        width: calc(100% / 3 - 20px);
+    }
+
+    #intro .col:first-child{
+        width: calc((100% / 3) * 2);
+
+    }
+
 }
